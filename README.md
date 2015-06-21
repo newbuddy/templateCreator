@@ -1,2 +1,2 @@
 # templateCreator
-Html Template Creator.
+Html Template Creator. Created by Faisal Abbbas.
