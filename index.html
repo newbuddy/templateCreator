@@ -1,0 +1,567 @@
+<html>
+
+<!-- BEGIN HEAD -->
+<head>
+	<link rel="stylesheet" href="css/main.css" />
+	<link rel="stylesheet" href="css/themePage.css" />
+	<script type="text/javascript" src="js/templateCreatorSlider-1.0.js"></script>
+	<script type="text/javascript" src="js/templateCreatorMain-1.0.js"></script>
+	<script type="text/javascript" src="js/templateCreatorAttributes-1.0.js"></script>
+	<script type="text/javascript" src="js/templateCreatorCode-1.0.js"></script>
+	<script type="text/javascript" src="js/templateCreatorTyping-1.0.js"></script>
+	<script type="text/javascript" src="js/templateCreatorUtilityFunctions-1.0.js"></script>
+	<script type="text/javascript" src="js/templateCreatorColorBgOpacity-1.0.js"></script>
+	<script type="text/javascript" src="js/templateCreatorGradientAtt-1.0.js"></script>
+	<title>Template Creator</title>
+	<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+	<meta name="author" content="Faisal Abbas">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+<!-- END HEAD -->
+
+<!-- BEGIN BODY -->
+<body>
+	
+	<!-- BEGIN SAMPLE TEMPLATE -->
+	<div class="att-opt-wrap">
+	
+		<div id="theme-page" onclick="selectElement(this);">
+			<div id="header" onclick="selectElement(this);">
+			
+				<div id="logo">
+					<img src="images/logo.png" width="130" height="25"/>
+				</div><!-- end div #logo -->
+				
+			</div><!-- end div #header -->
+			
+			<div id="navigation" onclick="selectElement(this);">
+				<ul>
+					<li id="selected" onclick="selectElement(this);">Home</li>
+					<li id="about" onclick="nonSelectableEditing(this.id);">About</li>
+					<li id="contact" onclick="nonSelectableEditing(this.id);">Contact</li>
+					<li id="privacy" onclick="nonSelectableEditing(this.id);">Privacy</li>
+				</ul>
+			</div><!-- end div #navigation -->
+			
+			<div id="content">
+			
+				<div id="side-bar-left">
+				
+					<div id="side-bar-module1" onclick="selectElement(this);">
+						<h2 id="sbm1h2" onclick="selectElement(this);">Products</h2>
+						<div class="sideLinks" onclick="nonSelectableEditing('product1');"><a id="product1">Product1</a><hr></div>
+						<div class="sideLinks" onclick="nonSelectableEditing('product2');"><a id="product2">Product2</a><hr></div>
+						<div class="sideLinks" onclick="nonSelectableEditing('product3');"><a id="product3">Product3</a><hr></div>
+					</div><!-- end div #side-bar-module1 -->
+					
+					<div id="side-bar-module5" onclick="selectElement(this);">
+						<h2 id="sbm5h2" onclick="selectElement(this);">Partners</h2>
+						<div class="sideLinks" onclick="nonSelectableEditing('partner1');"><a id="partner1">Partner1</a><hr></div>
+						<div class="sideLinks" onclick="nonSelectableEditing('partner2');"><a id="partner2">Partner2</a><hr></div>
+						<div class="sideLinks" onclick="nonSelectableEditing('partner3');"><a id="partner3">Partner3</a><hr></div>
+					</div><!-- end div #side-bar-module5 -->
+					
+					<div id="side-bar-module6" onclick="selectElement(this);">
+						<h2 id="sbm6h2" onclick="selectElement(this);">Brands</h2>
+						<div class="sideLinks" onclick="nonSelectableEditing('brand1');"><a id="brand1">Brand1</a><hr></div>
+						<div class="sideLinks" onclick="nonSelectableEditing('brand2');"><a id="brand2">Brand2</a><hr></div>
+						<div class="sideLinks" onclick="nonSelectableEditing('brand3');"><a id="brand3">Brand3</a><hr></div>
+						<div class="sideLinks" onclick="nonSelectableEditing('brand4');"><a id="brand4">Brand4</a><hr></div>
+						<div class="sideLinks" onclick="nonSelectableEditing('brand5');"><a id="brand5">Brand5</a><hr></div>
+					</div><!-- end div #side-bar-module6 -->
+		
+				</div><!-- end div #side-bar-left -->
+				
+				<div class="content-wrap">
+				
+					<div class="slider-wrap">
+						<div id="slider" onclick="selectElement(this);"></div>
+					</div><!-- end div .slider-wrap -->
+					
+					<div id="content-text1" onclick="selectElement(this);">
+						Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. 
+						Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat. 
+						Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie consequat, vel illum dolore eu feugiat nulla facilisis at vero 
+						eros et accumsan et iusto odio dignissim qui blandit praesent luptatum zzril delenit augue duis dolore te feugait nulla facilisi. 
+					</div><!-- end div #content-text1 -->
+					
+					<div id="content-text2" onclick="selectElement(this);">
+						Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. 
+						Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat. 
+						Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie consequat, vel illum dolore eu feugiat nulla facilisis at vero 
+						eros et accumsan et iusto odio dignissim qui blandit praesent luptatum zzril delenit augue duis dolore te feugait nulla facilisi. 
+					</div><!-- end div #content-text2 -->
+					
+				</div><!-- end div .content-wrap -->
+				
+				<div id="side-bar-right">
+				
+					<div id="side-bar-module4" onclick="selectElement(this);">
+						<h2 id="sbm4h2" onclick="selectElement(this);">Follow</h2>
+						<div id="icons-wrap">
+						<img src="images/facebook.png" width="14" height="14" class="set-margin" />
+						<img src="images/twitter.png"  width="14" height="14" class="set-margin" />
+						<img src="images/rss.png"  width="14" height="14" class="set-margin" />
+						<img src="images/linkedin.png"  width="14" height="14" class="set-margin" />
+						<img src="images/youtube.png"  width="14" height="14" class="set-margin" /></div>
+					</div><!-- end div #side-bar-module4 -->
+					
+					<div id="side-bar-module3" onclick="selectElement(this);">
+						<h2 id="sbm3h2" onclick="selectElement(this);">Latest</h2>
+						<div class="sideLinks" onclick="nonSelectableEditing('latest1');"><a id="latest1">Yippe I'm feeling lucky!</a><hr></div>
+						<div class="sideLinks" onclick="nonSelectableEditing('latest2');"><a id="latest2">Yes Something went wrong!</a><hr></div>
+						<div class="sideLinks" onclick="nonSelectableEditing('latest3');"><a id="latest3">There is more to celebrate.</a><hr></div>
+					</div><!-- end div #side-bar-module3 -->
+					
+					<div id="side-bar-module2" onclick="selectElement(this);">
+						<h2 id="sbm2h2" onclick="selectElement(this);">Top News</h2>
+						<div class="sideLinks" onclick="nonSelectableEditing('topnews1');"><a id="topnews1">Yippe I'm feeling lucky!</a><hr></div>
+						<div class="sideLinks" onclick="nonSelectableEditing('topnews2');"><a id="topnews2">Yes Something went wrong!</a><hr></div>
+						<div class="sideLinks" onclick="nonSelectableEditing('topnews3');"><a id="topnews3">There is more to celebrate.</a><hr></div>
+						<div class="sideLinks" onclick="nonSelectableEditing('topnews4');"><a id="topnews4">Another good offer for all!</a><hr></div>
+					</div><!-- end div #side-bar-module2 -->
+					
+				</div><!-- end div #side-bar-right -->
+				
+			</div><!-- end div #content -->
+			
+			<div id="footer" onclick="selectElement(this);">Copyrights &copy; Default 2013</div>
+			
+		</div><!-- end div #theme-page -->
+		
+	</div><!-- end div .att-opt-wrap -->
+	<!-- END SAMPLE TEMPLATE -->
+	
+	<!-- BEGIN FIXED POSITION ELEMENTS -->
+	
+	<div class="sample-template-header">
+		<img src="images/logo.png" width="250" height="23" style="margin-left:70px;margin-top:5px;" />
+	</div><!-- end div .sample-template-header -->
+	
+	<div class="pipe-icon">
+		<img src="images/pipe.png" width="18" height="65" />
+	</div><!-- end div .pipe-icon -->
+	
+	<div id="how-to-use" class="how-to-use">
+		<h3>How to use?</h3>
+		<div class="how2use-text">
+		
+					The left side of the page shows a sample template of html. Alter this page according to your requirements and get the code. Click on any
+					element of the sample template to select it. After selecting an element a sliding div with attributes will show up. Click on the attribute you want
+					to change and make the changings. To remove the selected element click on the remove button. An element once removed cannot be restored so
+					be sure of your decision. You can also edit the text of selected element by using the keyboard keys to alter the text. Use backspace to delete
+					a character.
+					After finalizing the complete style of the sample template click on the getcode button to get the html code
+					of the finalized template. Clicking on the getcode button will slide another div with a textarea containing the html code. Use back button if you need to go back to the attributes.
+					Select the width in px of your webpage and copy the code shown in the textarea. Make an html file and paste the copied code in the file.
+					Save the file and run it in the browser to show the html page.
+					
+		</div><!-- end div .how2use-text -->
+		
+	</div><!-- end div #how-to-use -->
+	
+	<div id="attributes" class="attributes">
+		<div class="frm">
+			<div class="frm-heading">
+				<div class="att-heading"><h3>Attributes</h3></div>
+				<div class="gradient-box"><div class="rect" id="gradientBottomBlack" title="GradientBottomBlack" onclick="updateGradient(0,'bottomblack');"></div></div>
+				<div class="gradient-box"><div class="rect" id="gradientBottomWhite" title="GradientBottomWhite" onclick="updateGradient(0,'bottomwhite');"></div></div>
+				<div class="gradient-box"><div class="rect" id="gradientTopBlack" title="GradientTopBlack" onclick="updateGradient(0,'topblack');"></div></div>
+				<div class="gradient-box"><div class="rect" id="gradientTopWhite" title="GradientTopWhite" onclick="updateGradient(0,'topwhite');"></div></div>
+				<div class="gradient">Gradient <input type="checkbox" class="typecheckbox" id="inputGradient" onclick="updateGradient('','');" /></div>
+			</div><!-- end div #frm-heading -->
+			
+			<div class="form">
+					<table>
+						<tr class="Bgo">
+							<td>Background:</td>
+							<td class="td-input"><input type="text" class="typetext" id="inputBackground"  onfocus="showColors(this);" readonly /></td>
+							<td>Opacity:</td>
+							<td class="td-input"><div class="input-btns-wrap"><div class="input-wrap"><input type="text" class="typetext" id="inputOpacity" onfocus="showBtns(this,'btns-2');" readonly /></div>
+							<div id="btns-2" class="btns"><img src="images/Previous-icon.png" width="21" height="21" onclick="decrementOpacity();" /><img src="images/Next-icon.png" width="21" height="21" onclick="incrementOpacity();" /></div></div>
+							</td>
+						</tr>
+						<tr class="Tcfs">
+							<td>Text Color:</td>
+							<td class="td-input"><input type="text" class="typetext" id="inputTextColor" onfocus="showColors(this);" readonly /></td>
+							<td>Font-size:</td>
+							<td class="td-input"><div class="input-btns-wrap"><div class="input-wrap"><input type="text" class="typetext" id="inputFontSize" onfocus="showBtns(this,'btns-1');" readonly /></div>
+							<div id="btns-1" class="btns"><img src="images/Previous-icon.png" width="21" height="21" onclick="decrementFontSize();" /><img src="images/Next-icon.png" width="21" height="21" onclick="incrementFontSize();" /></div></div>
+							</td>
+						</tr>
+						<tr class="Mtb">
+							<td>Margin-top:</td>
+							<td class="td-input"><div class="input-btns-wrap"><div class="input-wrap"><input type="text" class="typetext" id="inputMarginTop" onfocus="showBtns(this,'btns-3');" readonly /></div>
+							<div id="btns-3" class="btns"><img src="images/Previous-icon.png" width="21" height="21" onclick="decrementMarginTop();" /><img src="images/Next-icon.png" width="21" height="21" onclick="incrementMarginTop();" /></div></div>
+							</td>
+							<td>Margin-bottom:</td>
+							<td class="td-input"><div class="input-btns-wrap"><div class="input-wrap"><input type="text" class="typetext" id="inputMarginBottom" onfocus="showBtns(this,'btns-6');" readonly /></div>
+							<div id="btns-6" class="btns"><img src="images/Previous-icon.png" width="21" height="21" onclick="decrementMarginBottom();" /><img src="images/Next-icon.png" width="21" height="21" onclick="incrementMarginBottom();" /></div></div>
+							</td>
+						</tr>
+						<tr class="Mlr">
+							<td>Margin-left:</td>
+							<td class="td-input"><div class="input-btns-wrap"><div class="input-wrap"><input type="text" class="typetext" id="inputMarginLeft" onfocus="showBtns(this,'btns-4');" readonly /></div>
+							<div id="btns-4" class="btns"><img src="images/Previous-icon.png" width="21" height="21" onclick="decrementMarginLeft();" /><img src="images/Next-icon.png" width="21" height="21" onclick="incrementMarginLeft();" /></div></div>
+							</td>
+							<td>Margin-right:</td>
+							<td class="td-input"><div class="input-btns-wrap"><div class="input-wrap"><input type="text" class="typetext" id="inputMarginRight" onfocus="showBtns(this,'btns-5');" readonly /></div>
+							<div id="btns-5" class="btns"><img src="images/Previous-icon.png" width="21" height="21" onclick="decrementMarginRight();" /><img src="images/Next-icon.png" width="21" height="21" onclick="incrementMarginRight();" /></div></div>
+							</td>
+						</tr>
+						<tr class="Ptb">
+							<td>Padding-top:</td>
+							<td class="td-input"><div class="input-btns-wrap"><div class="input-wrap"><input type="text" class="typetext" id="inputPaddingTop" onfocus="showBtns(this,'btns-7');" readonly /></div>
+							<div id="btns-7" class="btns"><img src="images/Previous-icon.png" width="21" height="21" onclick="decrementPaddingTop();" /><img src="images/Next-icon.png" width="21" height="21" onclick="incrementPaddingTop();" /></div></div>
+							</td>
+							<td>Padding-bottom:</td>
+							<td class="td-input"><div class="input-btns-wrap"><div class="input-wrap"><input type="text" class="typetext" id="inputPaddingBottom" onfocus="showBtns(this,'btns-10');" readonly /></div>
+							<div id="btns-10" class="btns"><img src="images/Previous-icon.png" width="21" height="21" onclick="decrementPaddingBottom();" /><img src="images/Next-icon.png" width="21" height="21" onclick="incrementPaddingBottom();" /></div></div>
+							</td>
+						</tr>
+						<tr class="Plr">
+							<td>Padding-left:</td>
+							<td class="td-input"><div class="input-btns-wrap"><div class="input-wrap"><input type="text" class="typetext" id="inputPaddingLeft" onfocus="showBtns(this,'btns-8');" readonly /></div>
+							<div id="btns-8" class="btns"><img src="images/Previous-icon.png" width="21" height="21" onclick="decrementPaddingLeft();" /><img src="images/Next-icon.png" width="21" height="21" onclick="incrementPaddingLeft();" /></div></div>
+							</td>
+							<td>Padding-right:</td>
+							<td class="td-input"><div class="input-btns-wrap"><div class="input-wrap"><input type="text" class="typetext" id="inputPaddingRight" onfocus="showBtns(this,'btns-9');" readonly /></div>
+							<div id="btns-9" class="btns"><img src="images/Previous-icon.png" width="21" height="21" onclick="decrementPaddingRight();" /><img src="images/Next-icon.png" width="21" height="21" onclick="incrementPaddingRight();" /></div></div>
+							</td>
+						</tr>
+						<tr class="Hw">
+							<td>Height:</td>
+							<td class="td-input"><div class="input-btns-wrap"><div class="input-wrap"><input type="text" class="typetext" id="inputHeight" onfocus="showBtns(this,'btns-12');" readonly /></div>
+							<div id="btns-12" class="btns"><img src="images/Previous-icon.png" width="21" height="21" onclick="decrementHeight();" /><img src="images/Next-icon.png" width="21" height="21" onclick="incrementHeight();" /></div></div>
+							</td>
+							<td>Width:</td>
+							<td class="td-input"><div class="input-btns-wrap"><div class="input-wrap"><input type="text" class="typetext" id="inputWidth" onfocus="showBtns(this,'btns-11');" readonly /></div>
+							<div id="btns-11" class="btns"><img src="images/Previous-icon.png" width="21" height="21" onclick="decrementWidth();" /><img src="images/Next-icon.png" width="21" height="21" onclick="incrementWidth();" /></div></div>
+							</td>
+						</tr>
+						<tr class="Br">
+							<td>Border:</td>
+							<td class="td-input" colspan="2">
+							<select id="inputBorderWeight" onchange="changeBorderWeight(this);">
+								<option value="0">0</option>
+								<option value="1">1</option>
+								<option value="2">2</option>
+								<option value="3">3</option>
+								<option value="4">4</option>
+								<option value="5">5</option>
+								<option value="6">6</option>
+								<option value="7">7</option>
+								<option value="8">8</option>
+								<option value="9">9</option>
+								<option value="10">10</option>
+								<option value="11">11</option>
+								<option value="12">12</option>
+								<option value="13">13</option>
+								<option value="14">14</option>
+								<option value="15">15</option>
+								<option value="16">16</option>
+								<option value="17">17</option>
+								<option value="18">18</option>
+							</select>
+							px solid <input type="text" class="mediumbox" id="inputBorderBg" onfocus="showColors(this);" readonly />
+							</td>
+							<td class="td-input">
+								<select id="inputBorderType" onchange="changeBorderType(this);">
+									<option value="All">All</option>
+									<option value="Top">Top</option>
+									<option value="Bottom">Bottom</option>
+									<option value="Left">Left</option>
+									<option value="Right">Right</option>
+									<option value="Top-Bottom">Top-Bottom</option>
+									<option value="Top-Left">Top-Left</option>
+									<option value="Top-Right">Top-Right</option>
+									<option value="Bottom-Left">Bottom-Left</option>
+									<option value="Bottom-Right">Bottom-Right</option>
+									<option value="Left-Right">Left-Right</option>
+									<option value="Top-Bottom-Left">Top-Bottom-Left</option>
+									<option value="Top-Bottom-Right">Top-Bottom-Right</option>
+									<option value="Top-Left-Right">Top-Left-Right</option>
+									<option value="Bottom-Left-Right">Bottom-Left-Right</option>
+								</select>
+							</td>
+						</tr>
+						<tr class="B-radius">
+							<td>Border Radius:</td>
+							<td class="td-input" colspan="3"><div class="input-btns-wrap"><div class="input-wrap">
+							<input type="text" class="smallbox" id="inputBorderRadiusTopLeft" onfocus="showBtns(this,'btns-13');" readonly /> px
+							<input type="text" class="smallbox" id="inputBorderRadiusTopRight" onfocus="showBtns(this,'btns-13');" readonly /> px
+							<input type="text" class="smallbox" id="inputBorderRadiusBottomRight" onfocus="showBtns(this,'btns-13');" readonly /> px
+							<input type="text" class="smallbox" id="inputBorderRadiusBottomLeft" onfocus="showBtns(this,'btns-13');" readonly /> px
+							</div>
+							<div id="btns-13" class="btns"><img src="images/Previous-icon.png" width="21" height="21" onclick="decrementBorderRadius();" /><img src="images/Next-icon.png" width="21" height="21" onclick="incrementBorderRadius();" /></div></div>
+							</td>
+						</tr>
+						<tr class="Ff">
+							<td>Font-family:</td>
+							<td class="td-input">
+							<select id="inputFontFamily" onchange="changeFontFamily(this);">
+								<option value="Arial">Arial</option>
+								<option value="Book Antiqua">Book Antiqua</option>
+								<option value="Comic Sans MS">Comic Sans MS</option>
+								<option value="Courier New">Courier New</option>
+								<option value="Georgia">Georgia</option>
+								<option value="Impact">Impact</option>
+								<option value="Lucida Console">Lucida Console</option>
+								<option value="Lucida Sans Unicode">Lucida Sans Unicode</option>
+								<option value="Palatino Linotype">Palatino Linotype</option>
+								<option value="Tahoma">Tahoma</option>
+								<option value="Times New Roman">Times New Roman</option>
+								<option value="Trebuchet MS">Trebuchet MS</option>
+								<option value="Verdana">Verdana</option>
+							</select>
+							</td>	
+						</tr>
+						<tr>
+							<td></td>
+							<td class="td-input">
+							</td>
+							<td></td>
+							<td class="td-input">
+							<button id="getCode-btn" onclick="codeSlide();">Get code</button>
+							<button id="remove-btn" onclick="removeElement();">Remove</button>
+							</td>
+						</tr>
+					</table>
+			</div><!-- end div .form -->
+			
+		</div><!-- end div .frm -->
+		
+	</div><!-- end div #attributes -->
+	
+	<div class="code-wrap" id="code-wrap">
+		<h3>Html Code:</h3>
+		<div id="code"></div>
+		<button onclick="codeSlideRight();">Back</button>
+		<button style="float:right;margin-left:0px;margin-right:0px;margin-top:10px;" value="1300" onclick="loadCode(this);">1300px</button>
+		<button style="float:right;margin-left:0px;margin-right:0px;margin-top:10px;" value="1200" onclick="loadCode(this);">1200px</button>
+		<button style="float:right;margin-left:0px;margin-right:0px;margin-top:10px;" value="1024" onclick="loadCode(this);">1024px</button>
+		<button style="float:right;margin-left:0px;margin-right:0px;margin-top:10px;" value="960" onclick="loadCode(this);">960px</button>
+	</div><!-- end div .code-wrap -->
+	
+	<div class="options" id="options">
+	
+		<div class="colors">
+				<div class="box"><div class="rect" id="black" onclick="setColor('black','Black');" title="Black" style="background:black;"></div></div>
+				<div class="box"><div class="rect" id="#2C3539" onclick="setColor('#2C3539','Gunmetal');" title="Gunmetal" style="background:#2C3539;"></div></div>
+				<div class="box"><div class="rect" id="#2B1B17" onclick="setColor('#2B1B17','Midnight');" title="Midnight" style="background:#2B1B17;"></div></div>
+				<div class="box"><div class="rect" id="#34282C" onclick="setColor('#34282C','Charcoal');" title="Charcoal" style="background:#34282C;"></div></div>
+				<div class="box"><div class="rect" id="#3B3131" onclick="setColor('#3B3131','Oil');" title="Oil" style="background:#3B3131;"></div></div>
+				<div class="box"><div class="rect" id="#413839" onclick="setColor('#413839','BlackCat');" title="BlackCat" style="background:#413839;"></div></div>
+				<div class="box"><div class="rect" id="#463E3F" onclick="setColor('#463E3F','BlackEel');" title="BlackEel" style="background:#463E3F;"></div></div>
+				<div class="box"><div class="rect" id="#4C4646" onclick="setColor('#4C4646','BlackCow');" title="BlackCow" style="background:#4C4646;"></div></div>
+				<div class="box"><div class="rect" id="darkslategrey" onclick="setColor('darkslategrey','DarkSlateGrey');" title="DarkSlateGrey" style="background:darkslategrey;"></div></div>
+				<div class="box"><div class="rect" id="#504A4B" onclick="setColor('#504A4B','GrayWolf');" title="GrayWolf" style="background:#504A4B;"></div></div>
+				<div class="box"><div class="rect" id="#565051" onclick="setColor('#565051','VampireGray');" title="VampireGray" style="background:#565051;"></div></div>
+				<div class="box"><div class="rect" id="#5C5858" onclick="setColor('#5C5858','GrayDolphin');" title="GrayDolphin" style="background:#5C5858;"></div></div>
+				<div class="box"><div class="rect" id="#625D5D" onclick="setColor('#625D5D','CarbonGray');" title="CarbonGray" style="background:#625D5D;"></div></div>
+				<div class="box"><div class="rect" id="#666362" onclick="setColor('#666362','AshGray');" title="AshGray" style="background:#666362;"></div></div>
+				<div class="box"><div class="rect" id="#6D6968" onclick="setColor('#6D6968','CloudyGray');" title="CloudyGray" style="background:#6D6968;"></div></div>
+				<div class="box"><div class="rect" id="#726E6D" onclick="setColor('#726E6D','SmokeyGray');" title="SmokeyGray" style="background:#726E6D;"></div></div>
+				<div class="box"><div class="rect" id="gray" onclick="setColor('gray','Gray');" title="Gray" style="background:gray;"></div></div>
+				<div class="box"><div class="rect" id="slategray" onclick="setColor('slategray','SlateGray');" title="SlateGray" style="background:slategray;"></div></div>
+				<div class="box"><div class="rect" id="lightslategray" onclick="setColor('lightslategray','LightSlateGray');" title="LightSlateGray" style="background:lightslategray;"></div></div>
+				<div class="box"><div class="rect" id="dimgray" onclick="setColor('dimgray','Dimgray');" title="Dimgray" style="background:dimgray;"></div></div>
+				<div class="box"><div class="rect" id="#837E7C" onclick="setColor('#837E7C','Granite');" title="Granite" style="background:#837E7C;"></div></div>
+				<div class="box"><div class="rect" id="#848482" onclick="setColor('#848482','BattleshipGray');" title="BattleshipGray" style="background:#848482;"></div></div>
+				<div class="box"><div class="rect" id="darkgray" onclick="setColor('darkgray','DarkGray');" title="DarkGray" style="background:darkgray;"></div></div>
+				<div class="box"><div class="rect" id="silver" onclick="setColor('silver','Silver');" title="Silver" style="background:silver;"></div></div>
+				<div class="box"><div class="rect" id="tan" onclick="setColor('tan','Tan');" title="Tan" style="background:tan;"></div></div>
+				<div class="box"><div class="rect" id="thistle" onclick="setColor('thistle','Thistle');" title="Thistle" style="background:thistle;"></div></div>
+				<div class="box"><div class="rect" id="plum" onclick="setColor('plum','Plum');" title="Plum" style="background:plum;"></div></div>
+				<div class="box"><div class="rect" id="lightpink" onclick="setColor('lightpink','LightPink');" title="LightPink" style="background:lightpink;"></div></div>
+				<div class="box"><div class="rect" id="pink" onclick="setColor('pink','Pink');" title="Pink" style="background:pink;"></div></div>
+				<div class="box"><div class="rect" id="#F9B7FF" onclick="setColor('#F9B7FF','BlossumPink');" title="BlossumPink" style="background:#F9B7FF;"></div></div>
+				<div class="box"><div class="rect" id="#E6A9EC" onclick="setColor('#E6A9EC','BlushPink');" title="BlushPink" style="background:#E6A9EC;"></div></div>
+				<div class="box"><div class="rect" id="violet" onclick="setColor('violet','Violet');" title="Violet" style="background:violet;"></div></div>
+				<div class="box"><div class="rect" id="hotpink" onclick="setColor('hotpink','Hotpink');" title="Hotpink" style="background:hotpink;"></div></div>
+				<div class="box"><div class="rect" id="orchid" onclick="setColor('orchid','Orchid');" title="Orchid" style="background:orchid;"></div></div>
+				<div class="box"><div class="rect" id="mediumorchid" onclick="setColor('mediumorchid','MediumOrchid');" title="MediumOrchid" style="background:mediumorchid;"></div></div>
+				<div class="box"><div class="rect" id="darkorchid" onclick="setColor('darkorchid','DarkOrchid');" title="DarkOrchid" style="background:darkorchid;"></div></div>
+				<div class="box"><div class="rect" id="blueviolet" onclick="setColor('blueviolet','BlueViolet');" title="BlueViolet" style="background:blueviolet;"></div></div>
+				<div class="box"><div class="rect" id="darkviolet" onclick="setColor('darkviolet','DarkViolet');" title="DarkViolet" style="background:darkviolet;"></div></div>
+				<div class="box"><div class="rect" id="indigo" onclick="setColor('indigo','Indigo');" title="Indigo" style="background:indigo;"></div></div>
+				<div class="box"><div class="rect" id="darkmagenta" onclick="setColor('darkmagenta','DarkMagenta');" title="DarkMagenta" style="background:darkmagenta;"></div></div>
+				<div class="box"><div class="rect" id="purple" onclick="setColor('purple','Purple');" title="Purple" style="background:purple;"></div></div>
+				<div class="box"><div class="rect" id="mediumvioletred" onclick="setColor('mediumvioletred','MediumVioletRed');" title="MediumVioletRed" style="background:mediumvioletred;"></div></div>
+				<div class="box"><div class="rect" id="magenta" onclick="setColor('magenta','Magenta');" title="Magenta" style="background:magenta;"></div></div>
+				<div class="box"><div class="rect" id="fuchsia" onclick="setColor('fuchsia','Fuchsia');" title="Fuchsia" style="background:fuchsia;"></div></div>
+				<div class="box"><div class="rect" id="deeppink" onclick="setColor('deeppink','DeepPink');" title="DeepPink" style="background:deeppink;"></div></div>
+				<div class="box"><div class="rect" id="#CD7F32" onclick="setColor('#CD7F32','Bronze');" title="Bronze" style="background:#CD7F32;"></div></div>
+				<div class="box"><div class="rect" id="#C88141" onclick="setColor('#C88141','TigerOrange');" title="TigerOrange" style="background:#C88141;"></div></div>
+				<div class="box"><div class="rect" id="#C68E17" onclick="setColor('#C68E17','Caramel');" title="Caramel" style="background:#C68E17;"></div></div>
+				<div class="box"><div class="rect" id="#AF6114" onclick="setColor('#AF6114','DarkCaramel');" title="DarkCaramel" style="background:#AF6114;"></div></div>
+				<div class="box"><div class="rect" id="#C37528" onclick="setColor('#C37528','DarkTigerOrange');" title="DarkTigerOrange" style="background:#C37528;"></div></div>
+				<div class="box"><div class="rect" id="#D7893C" onclick="setColor('#D7893C','DarkBronze');" title="DarkBronze" style="background:#D7893C;"></div></div>
+				<div class="box"><div class="rect" id="darkgoldenrod" onclick="setColor('darkgoldenrod','DarkGoldenRod');" title="DarkGoldenRod" style="background:darkgoldenrod;"></div></div>
+				<div class="box"><div class="rect" id="goldenrod" onclick="setColor('goldenrod','GoldenRod');" title="GoldenRod" style="background:goldenrod;"></div></div>
+				<div class="box"><div class="rect" id="orange" onclick="setColor('orange','Orange');" title="Orange" style="background:orange;"></div></div>
+				<div class="box"><div class="rect" id="darkorange" onclick="setColor('darkorange','DarkOrange');" title="DarkOrange" style="background:darkorange;"></div></div>
+				<div class="box"><div class="rect" id="coral" onclick="setColor('coral','Coral');" title="Coral" style="background:coral;"></div></div>
+				<div class="box"><div class="rect" id="salmon" onclick="setColor('salmon','Salmon');" title="Salmon" style="background:salmon;"></div></div>
+				<div class="box"><div class="rect" id="indianred" onclick="setColor('indianred','IndianRed');" title="IndianRed" style="background:indianred;"></div></div>
+				<div class="box"><div class="rect" id="palevioletred" onclick="setColor('palevioletred','PaleVioletRed');" title="PaleVioletRed" style="background:palevioletred;"></div></div>
+				<div class="box"><div class="rect" id="lightcoral" onclick="setColor('lightcoral','LightCoral');" title="LightCoral" style="background:lightcoral;"></div></div>
+				<div class="box"><div class="rect" id="darksalmon" onclick="setColor('darksalmon','DarkSalmon');" title="DarkSalmon" style="background:darksalmon;"></div></div>
+				<div class="box"><div class="rect" id="sandybrown" onclick="setColor('sandybrown','SandyBrown');" title="SandyBrown" style="background:sandybrown;"></div></div>
+				<div class="box"><div class="rect" id="lightsalmon" onclick="setColor('lightsalmon','LightSalmon');" title="LightSalmon" style="background:lightsalmon;"></div></div>
+				<div class="box"><div class="rect" id="burlywood" onclick="setColor('burlywood','BurlyWood');" title="BurlyWood" style="background:burlywood;"></div></div>
+				<div class="box"><div class="rect" id="peru" onclick="setColor('peru','Peru');" title="Peru" style="background:peru;"></div></div>
+				<div class="box"><div class="rect" id="rosybrown" onclick="setColor('rosybrown','RosyBrown');" title="RosyBrown" style="background:rosybrown;"></div></div>
+				<div class="box"><div class="rect" id="chocolate" onclick="setColor('chocolate','Chocolate');" title="Chocolate" style="background:chocolate;"></div></div>
+				<div class="box"><div class="rect" id="sienna" onclick="setColor('sienna','Sienna');" title="Sienna" style="background:sienna;"></div></div>
+				<div class="box"><div class="rect" id="saddlebrown" onclick="setColor('saddlebrown','SaddleBrown');" title="SaddleBrown" style="background:saddlebrown;"></div></div>
+				<div class="box"><div class="rect" id="firebrick" onclick="setColor('firebrick','FireBrick');" title="FireBrick" style="background:firebrick;"></div></div>
+				<div class="box"><div class="rect" id="#990012" onclick="setColor('#990012','RedWine');" title="RedWine" style="background:#990012;"></div></div>
+				<div class="box"><div class="rect" id="brown" onclick="setColor('brown','Brown');" title="Brown" style="background:brown;"></div></div>
+				<div class="box"><div class="rect" id="maroon" onclick="setColor('maroon','Maroon');" title="Maroon" style="background:maroon;"></div></div>
+				<div class="box"><div class="rect" id="darkred" onclick="setColor('darkred','DarkRed');" title="DarkRed" style="background:darkred;"></div></div>
+				<div class="box"><div class="rect" id="#8C001A" onclick="setColor('#8C001A','Burgundy');" title="Burgundy" style="background:#8C001A;"></div></div>
+				<div class="box"><div class="rect" id="#9F000F" onclick="setColor('#9F000F','Cranberry');" title="Cranberry" style="background:#9F000F;"></div></div>
+				<div class="box"><div class="rect" id="#C11B17" onclick="setColor('#C11B17','ChilliPepper');" title="ChilliPepper" style="background:#C11B17;"></div></div>
+				<div class="box"><div class="rect" id="tomato" onclick="setColor('tomato','Tomato');" title="Tomato" style="background:tomato;"></div></div>
+				<div class="box"><div class="rect" id="#FF8040" onclick="setColor('#FF8040','MangoOrange');" title="MangoOrange" style="background:#FF8040;"></div></div>
+				<div class="box"><div class="rect" id="#F87217" onclick="setColor('#F87217','PumpkinOrange');" title="PumpkinOrange" style="background:#F87217;"></div></div>
+				<div class="box"><div class="rect" id="#F87431" onclick="setColor('#F87431','ConstructionConeOrange');" title="ConstructionConeOrange" style="background:#F87431;"></div></div>
+				<div class="box"><div class="rect" id="#E66C2C" onclick="setColor('#E66C2C','HalloweenOrange');" title="HalloweenOrange" style="background:#E66C2C;"></div></div>
+				<div class="box"><div class="rect" id="orangered" onclick="setColor('orangered','OrangeRed');" title="OrangeRed" style="background:orangered;"></div></div>
+				<div class="box"><div class="rect" id="#C04000" onclick="setColor('#C04000','Mahogany');" title="Mahogany" style="background:#C04000;"></div></div>
+				<div class="box"><div class="rect" id="red" onclick="setColor('red','Red');" title="Red" style="background:red;"></div></div>
+				<div class="box"><div class="rect" id="crimson" onclick="setColor('crimson','Crimson');" title="Crimson" style="background:crimson;"></div></div>
+				<div class="box"><div class="rect" id="#E42217" onclick="setColor('#E42217','LavaRed');" title="LavaRed" style="background:#E42217;"></div></div>
+				<div class="box"><div class="rect" id="#E41B17" onclick="setColor('#E41B17','LoveRed');" title="LoveRed" style="background:#E41B17;"></div></div>
+				<div class="box"><div class="rect" id="#F62217" onclick="setColor('#F62217','RubyRed');" title="RubyRed" style="background:#F62217;"></div></div>
+				<div class="box"><div class="rect" id="#F70D1A" onclick="setColor('#F70D1A','Scarlett');" title="Scarlett" style="background:#F70D1A;"></div></div>
+				<div class="box"><div class="rect" id="#DC381F" onclick="setColor('#DC381F','GrapeFruit');" title="GrapeFruit" style="background:#DC381F;"></div></div>
+				<div class="box"><div class="rect" id="darkslateblue" onclick="setColor('darkslateblue','DarkSlateBlue');" title="DarkSlateBlue" style="background:darkslateblue;"></div></div>
+				<div class="box"><div class="rect" id="mediumslateblue" onclick="setColor('mediumslateblue','MediumSlateBlue');" title="MediumSlateBlue" style="background:mediumslateblue;"></div></div>
+				<div class="box"><div class="rect" id="slateblue" onclick="setColor('slateblue','SlateBlue');" title="SlateBlue" style="background:slateblue;"></div></div>
+				<div class="box"><div class="rect" id="mediumpurple" onclick="setColor('mediumpurple','MediumPurple');" title="MediumPurple" style="background:mediumpurple;"></div></div>
+				<div class="box"><div class="rect" id="#6960EC" onclick="setColor('#6960EC','BlueLotus');" title="BlueLotus" style="background:#6960EC;"></div></div>
+				<div class="box"><div class="rect" id="#342D7E" onclick="setColor('#342D7E','BlueWhale');" title="BlueWhale" style="background:#342D7E;"></div></div>
+				<div class="box"><div class="rect" id="#15317E" onclick="setColor('#15317E','LapisBlue');" title="LapisBlue" style="background:#15317E;"></div></div>
+				<div class="box"><div class="rect" id="#0041C2" onclick="setColor('#0041C2','BlueberryBlue');" title="BlueberryBlue" style="background:#0041C2;"></div></div>
+				<div class="box"><div class="rect" id="navy" onclick="setColor('navy','Navy');" title="Navy" style="background:navy;"></div></div>
+				<div class="box"><div class="rect" id="darkblue" onclick="setColor('darkblue','DarkBlue');" title="DarkBlue" style="background:darkblue;"></div></div>
+				<div class="box"><div class="rect" id="midnightblue" onclick="setColor('midnightblue','MidnightBlue');" title="MidnightBlue" style="background:midnightblue;"></div></div>
+				<div class="box"><div class="rect" id="mediumblue" onclick="setColor('mediumblue','MediumBlue');" title="MediumBlue" style="background:mediumblue;"></div></div>
+				<div class="box"><div class="rect" id="blue" onclick="setColor('blue','Blue');" title="Blue" style="background:blue;"></div></div>
+				<div class="box"><div class="rect" id="royalblue" onclick="setColor('royalblue','RoyalBlue');" title="RoyalBlue" style="background:royalblue;"></div></div>
+				<div class="box"><div class="rect" id="steelblue" onclick="setColor('steelblue','SteelBlue');" title="SteelBlue" style="background:steelblue;"></div></div>
+				<div class="box"><div class="rect" id="teal" onclick="setColor('teal','Teal');" title="Teal" style="background:teal;"></div></div>
+				<div class="box"><div class="rect" id="darkcyan" onclick="setColor('darkcyan','DarkCyan');" title="DarkCyan" style="background:darkcyan;"></div></div>
+				<div class="box"><div class="rect" id="dodgerblue" onclick="setColor('dodgerblue','DodgerBlue');" title="DodgerBlue" style="background:dodgerblue;"></div></div>
+				<div class="box"><div class="rect" id="cornflowerblue" onclick="setColor('cornflowerblue','CornflowerBlue');" title="CornflowerBlue" style="background:cornflowerblue;"></div></div>
+				<div class="box"><div class="rect" id="cadetblue" onclick="setColor('cadetblue','CadetBlue');" title="CadetBlue" style="background:cadetblue;"></div></div>
+				<div class="box"><div class="rect" id="#488AC7" onclick="setColor('#488AC7','SilkBlue');" title="SilkBlue" style="background:#488AC7;"></div></div>
+				<div class="box"><div class="rect" id="#56A5EC" onclick="setColor('#56A5EC','Iceberg');" title="Iceberg" style="background:#56A5EC;"></div></div>
+				<div class="box"><div class="rect" id="lightseagreen" onclick="setColor('lightseagreen','LightSeaGreen');" title="LightSeaGreen" style="background:lightseagreen;"></div></div>
+				<div class="box"><div class="rect" id="deepskyblue" onclick="setColor('deepskyblue','DeepSkyBlue');" title="DeepSkyBlue" style="background:deepskyblue;"></div></div>
+				<div class="box"><div class="rect" id="mediumturquoise" onclick="setColor('mediumturquoise','MediumTurquoise');" title="MediumTurquoise" style="background:mediumturquoise;"></div></div>
+				<div class="box"><div class="rect" id="darkturquoise" onclick="setColor('darkturquoise','DarkTurquoise');" title="DarkTurquoise" style="background:darkturquoise;"></div></div>
+				<div class="box"><div class="rect" id="aqua" onclick="setColor('aqua','Aqua');" title="Aqua" style="background:aqua;"></div></div>
+				<div class="box"><div class="rect" id="cyan" onclick="setColor('cyan','Cyan');" title="Cyan" style="background:cyan;"></div></div>
+				<div class="box"><div class="rect" id="mediumspringgreen" onclick="setColor('mediumspringgreen','MediumSpringGreen');" title="MediumSpringGreen" style="background:mediumspringgreen;"></div></div>
+				<div class="box"><div class="rect" id="springgreen" onclick="setColor('springgreen','SpringGreen');" title="SpringGreen" style="background:springgreen;"></div></div>
+				<div class="box"><div class="rect" id="turquoise" onclick="setColor('turquoise','Turquoise');" title="Turquoise" style="background:turquoise;"></div></div>
+				<div class="box"><div class="rect" id="lightskyblue" onclick="setColor('lightskyblue','LightSkyBlue');" title="LightSkyBlue" style="background:lightskyblue;"></div></div>
+				<div class="box"><div class="rect" id="lightsteelblue" onclick="setColor('lightsteelblue','LightSteelBlue');" title="LightSteelBlue" style="background:lightsteelblue;"></div></div>
+				<div class="box"><div class="rect" id="powderblue" onclick="setColor('powderblue','Powderblue');" title="Powderblue" style="background:powderblue;"></div></div>
+				<div class="box"><div class="rect" id="skyblue" onclick="setColor('skyblue','Skyblue');" title="Skyblue" style="background:skyblue;"></div></div>
+				<div class="box"><div class="rect" id="lightblue" onclick="setColor('lightblue','LightBlue');" title="Lightblue" style="background:lightblue;"></div></div>
+				<div class="box"><div class="rect" id="aquamarine" onclick="setColor('aquamarine','Aquamarine');" title="Aquamarine" style="background:aquamarine;"></div></div>
+				<div class="box"><div class="rect" id="mediumaquamarine" onclick="setColor('mediumaquamarine','MediumAquamarine');" title="Mediumaquamarine" style="background:mediumaquamarine;"></div></div>
+				<div class="box"><div class="rect" id="#BDEDFF" onclick="setColor('#BDEDFF','RobinEggBlue');" title="RobinEggBlue" style="background:#BDEDFF;"></div></div>
+				<div class="box"><div class="rect" id="paleturquoise" onclick="setColor('paleturquoise','PaleTurquoise');" title="PaleTurquoise" style="background:paleturquoise;"></div></div>
+				<div class="box"><div class="rect" id="palegreen" onclick="setColor('palegreen','PaleGreen');" title="PaleGreen" style="background:palegreen;"></div></div>
+				<div class="box"><div class="rect" id="lightgreen" onclick="setColor('lightgreen','LightGreen');" title="LightGreen" style="background:lightgreen;"></div></div>
+				<div class="box"><div class="rect" id="darkseagreen" onclick="setColor('darkseagreen','DarkSeaGreen');" title="DarkSeaGreen" style="background:darkseagreen;"></div></div>
+				<div class="box"><div class="rect" id="mediumseagreen" onclick="setColor('mediumseagreen','MediumSeaGreen');" title="MediumSeaGreen" style="background:mediumseagreen;"></div></div>
+				<div class="box"><div class="rect" id="#C2B280" onclick="setColor('#C2B280','Sand');" title="Sand" style="background:#C2B280;"></div></div>
+				<div class="box"><div class="rect" id="darkkhaki" onclick="setColor('darkkhaki','Darkkhaki');" title="Darkkhaki" style="background:darkkhaki;"></div></div>
+				<div class="box"><div class="rect" id="#A39F64" onclick="setColor('#A39F64','LightKhaki');" title="LightKhaki" style="background:#A39F64;"></div></div>
+				<div class="box"><div class="rect" id="#99955A" onclick="setColor('#99955A','Palekhaki');" title="Palekhaki" style="background:#99955A;"></div></div>
+				<div class="box"><div class="rect" id="#858146" onclick="setColor('#858146','LightOlive');" title="LightOlive" style="background:#858146;"></div></div>
+				<div class="box"><div class="rect" id="olive" onclick="setColor('olive','Olive');" title="Olive" style="background:olive;"></div></div>
+				<div class="box"><div class="rect" id="#767600" onclick="setColor('#767600','DarkOlive');" title="DarkOlive" style="background:#767600;"></div></div>
+				<div class="box"><div class="rect" id="#765900" onclick="setColor('#765900','LightOliveDrab');" title="LightOliveDrab" style="background:#765900;"></div></div>
+				<div class="box"><div class="rect" id="#8a6800" onclick="setColor('#8a6800','PaleOlive');" title="PaleOlive" style="background:#8a6800;"></div></div>
+				<div class="box"><div class="rect" id="#8a7f00" onclick="setColor('#8a7f00','DarkOliveDrab');" title="DarkOliveDrab" style="background:#8a7f00;"></div></div>
+				<div class="box"><div class="rect" id="olivedrab" onclick="setColor('olivedrab','OliveDrab');" title="OliveDrab" style="background:olivedrab;"></div></div>
+				<div class="box"><div class="rect" id="darkgreen" onclick="setColor('darkgreen','DarkGreen');" title="DarkGreen" style="background:darkgreen;"></div></div>
+				<div class="box"><div class="rect" id="green" onclick="setColor('green','Green');" title="Green" style="background:green;"></div></div>
+				<div class="box"><div class="rect" id="#254117" onclick="setColor('#254117','DarkForestgreen');" title="DarkForestgreen" style="background:#254117;"></div></div>
+				<div class="box"><div class="rect" id="darkolivegreen" title="DarkOliveGreen" onclick="setColor('darkolivegreen','DarkOliveGreen');" style="background:darkolivegreen;"></div></div>
+				<div class="box"><div class="rect" id="forestgreen" onclick="setColor('forestgreen','ForestGreen');" title="ForestGreen" style="background:forestgreen;"></div></div>
+				<div class="box"><div class="rect" id="#347C2C" onclick="setColor('#347C2C','JungleGreen');" title="JungleGreen" style="background:#347C2C;"></div></div>
+				<div class="box"><div class="rect" id="#347C17" onclick="setColor('#347C17','ShamrockGreen');" title="ShamrockGreen" style="background:#347C17;"></div></div>
+				<div class="box"><div class="rect" id="#6AA121" onclick="setColor('#6AA121','GreenOnion');" title="GreenOnion" style="background:#6AA121;"></div></div>
+				<div class="box"><div class="rect" id="seagreen" onclick="setColor('seagreen','SeaGreen');" title="SeaGreen" style="background:seagreen;"></div></div>
+				<div class="box"><div class="rect" id="#6CC417" onclick="setColor('#6CC417','AlienGreen');" title="AlienGreen" style="background:#6CC417;"></div></div>
+				<div class="box"><div class="rect" id="yellowgreen" onclick="setColor('yellowgreen','YellowGreen');" title="YellowGreen" style="background:yellowgreen;"></div></div>
+				<div class="box"><div class="rect" id="#54C571" onclick="setColor('#54C571','ZombieGreen');" title="ZombieGreen" style="background:#54C571;"></div></div>
+				<div class="box"><div class="rect" id="#99C68E" onclick="setColor('#99C68E','FrogGreen');" title="FrogGreen" style="background:#99C68E;"></div></div>
+				<div class="box"><div class="rect" id="#89C35C" onclick="setColor('#89C35C','GreenPeas');" title="GreenPeas" style="background:#89C35C;"></div></div>
+				<div class="box"><div class="rect" id="#9CB071" onclick="setColor('#9CB071','IguanaGreen');" title="IguanaGreen" style="background:#9CB071;"></div></div>
+				<div class="box"><div class="rect" id="limegreen" onclick="setColor('limegreen','LimeGreen');" title="LimeGreen" style="background:limegreen;"></div></div>
+				<div class="box"><div class="rect" id="lime" onclick="setColor('lime','Lime');" title="Lime" style="background:lime;"></div></div>
+				<div class="box"><div class="rect" id="chartreuse" onclick="setColor('chartreuse','Chartreuse');" title="Chartreuse" style="background:chartreuse;"></div></div>
+				<div class="box"><div class="rect" id="lawngreen" onclick="setColor('lawngreen','LawnGreen');" title="LawnGreen" style="background:lawngreen;"></div></div>
+				<div class="box"><div class="rect" id="greenyellow" onclick="setColor('greenyellow','GreenYellow');" title="GreenYellow" style="background:greenyellow;"></div></div>
+				<div class="box"><div class="rect" id="#BCE954" onclick="setColor('#BCE954','SlimeGreen');" title="SlimeGreen" style="background:#BCE954;"></div></div>
+				<div class="box"><div class="rect" id="#CCFB5D" onclick="setColor('#CCFB5D','TeaGreen');" title="TeaGreen" style="background:#CCFB5D;"></div></div>
+				<div class="box"><div class="rect" id="gold" onclick="setColor('gold','Gold');" title="Gold" style="background:gold;"></div></div>
+				<div class="box"><div class="rect" id="yellow" onclick="setColor('yellow','Yellow');" title="Yellow" style="background:yellow;"></div></div>
+				<div class="box"><div class="rect" id="#FFD801" onclick="setColor('#FFD801','RubberDuckyYellow');" title="RubberDuckyYellow" style="background:#FFD801;"></div></div>
+				<div class="box"><div class="rect" id="#FDD017" onclick="setColor('#FDD017','BrightGold');" title="BrightGold" style="background:#FDD017;"></div></div>
+				<div class="box"><div class="rect" id="#FBB917" onclick="setColor('#FBB917','Saffron');" title="Saffron" style="background:#FBB917;"></div></div>
+				<div class="box"><div class="rect" id="#FBB117" onclick="setColor('#FBB117','Beer');" title="Beer" style="background:#FBB117;"></div></div>
+				<div class="box"><div class="rect" id="#E9AB17" onclick="setColor('#E9AB17','BeeYellow');" title="BeeYellow" style="background:#E9AB17;"></div></div>
+				<div class="box"><div class="rect" id="#FFE87C" onclick="setColor('#FFE87C','SunYellow');" title="SunYellow" style="background:#FFE87C;"></div></div>
+				<div class="box"><div class="rect" id="khaki" onclick="setColor('khaki','Khaki');" title="Khaki" style="background:khaki;"></div></div>
+				<div class="box"><div class="rect" id="gainsboro" onclick="setColor('gainsboro','Gainsboro');" title="Gainsboro" style="background:gainsboro;"></div></div>
+				<div class="box"><div class="rect" id="ghostwhite" onclick="setColor('ghostwhite','GhostWhite');" title="GhostWhite" style="background:ghostwhite;"></div></div>
+				<div class="box"><div class="rect" id="white" onclick="setColor('white','White');" title="White" style="background:white;"></div></div>
+				<div class="box"><div class="rect" id="whitesmoke" onclick="setColor('whitesmoke','WhiteSmoke');" title="WhiteSmoke" style="background:whitesmoke;"></div></div>
+				<div class="box"><div class="rect" id="antiquewhite" onclick="setColor('antiquewhite','AntiqueWhite');" title="AntiqueWhite" style="background:antiquewhite;"></div></div>
+				<div class="box"><div class="rect" id="cornsilk" onclick="setColor('cornsilk','CornSilk');" title="CornSilk" style="background:cornsilk;"></div></div>
+				<div class="box"><div class="rect" id="floralwhite" onclick="setColor('floralwhite','FloralWhite');" title="FloralWhite" style="background:floralwhite;"></div></div>
+				<div class="box"><div class="rect" id="aliceblue" onclick="setColor('aliceblue','AliceBlue');" title="AliceBlue" style="background:aliceblue;"></div></div>
+				<div class="box"><div class="rect" id="azure" onclick="setColor('azure','Azure');" title="Azure" style="background:azure;"></div></div>
+				<div class="box"><div class="rect" id="beige" onclick="setColor('beige','Beige');" title="Beige" style="background:beige;"></div></div>
+				<div class="box"><div class="rect" id="bisque" onclick="setColor('bisque','Bisque');" title="Bisque" style="background:bisque;"></div></div>
+				<div class="box"><div class="rect" id="blanchedalmond" onclick="setColor('blanchedalmond','BlachedAlmond');" title="BlachedAlmond" style="background:blanchedalmond;"></div></div>
+				<div class="box"><div class="rect" id="wheat" onclick="setColor('wheat','Wheat');" title="Wheat" style="background:wheat;"></div></div>
+				<div class="box"><div class="rect" id="honeydew" onclick="setColor('honeydew','HoneyDew');" title="HoneyDew" style="background:honeydew;"></div></div>
+				<div class="box"><div class="rect" id="lightyellow" onclick="setColor('lightyellow','LightYellow');" title="LightYellow" style="background:lightyellow;"></div></div>
+				<div class="box"><div class="rect" id="ivory" onclick="setColor('ivory','Ivory');" title="Ivory" style="background:ivory;"></div></div>
+				<div class="box"><div class="rect" id="lavender" onclick="setColor('lavender','Lavender');" title="Lavender" style="background:lavender;"></div></div>
+				<div class="box"><div class="rect" id="lavenderblush" onclick="setColor('lavenderblush','LavenderBlush');" title="LavenderBlush" style="background:lavenderblush;"></div></div>
+				<div class="box"><div class="rect" id="lemonchiffon" onclick="setColor('lemonchiffon','LemonChiffon');" title="LemonChiffon" style="background:lemonchiffon;"></div></div>
+				<div class="box"><div class="rect" id="snow" onclick="setColor('snow','Snow');" title="Snow" style="background:snow;"></div></div>
+				<div class="box"><div class="rect" id="seashell" onclick="setColor('seashell','SeaShell');" title="SeaShell" style="background:seashell;"></div></div>
+				<div class="box"><div class="rect" id="papayawhip" onclick="setColor('papayawhip','Papayawhip');" title="Papayawhip" style="background:papayawhip;"></div></div>
+				<div class="box"><div class="rect" id="palegoldenrod" onclick="setColor('palegoldenrod','PaleGoldenRod');" title="PaleGoldenRod" style="background:palegoldenrod;"></div></div>
+				<div class="box"><div class="rect" id="oldlace" onclick="setColor('oldlace','OldLace');" title="OldLace" style="background:oldlace;"></div></div>
+				<div class="box"><div class="rect" id="mintcream" onclick="setColor('mintcream','MintCream');" title="MintCream" style="background:mintcream;"></div></div>
+				<div class="box"><div class="rect" id="mistyrose" onclick="setColor('mistyrose','MistyRose');" title="MistyRose" style="background:mistyrose;"></div></div>
+				<div class="box"><div class="rect" id="moccasin" onclick="setColor('moccasin','Moccasin');" title="Moccasin" style="background:moccasin;"></div></div>
+				<div class="box"><div class="rect" id="peachpuff" onclick="setColor('peachpuff','PeachPuff');" title="PeachPuff" style="background:peachpuff;"></div></div>
+				<div class="box"><div class="rect" id="navajowhite" onclick="setColor('navajowhite','NavajoWhite');" title="NavajoWhite" style="background:navajowhite;"></div></div>
+				<div class="box"><div class="rect" id="lightgray" onclick="setColor('lightgray','LightGray');" title="LightGray" style="background:lightgray;"></div></div>
+				<div class="box"><div class="rect" id="lightgoldenrodyellow" onclick="setColor('lightgoldenrodyellow','LightGoldenRodYellow');" title="LightGoldenRodYellow" style="background:lightgoldenrodyellow;"></div></div>
+				<div class="box"><div class="rect" id="lightcyan" onclick="setColor('lightcyan','LightCyan');" title="LightCyan" style="background:lightcyan;"></div></div>
+				<div class="box"><div class="rect" id="linen" onclick="setColor('linen','Linen');" title="Linen" style="background:linen;"></div></div>	
+		
+		</div><!-- end div .colors -->
+		
+	</div><!-- end div .options -->
+	<!-- END FIXED POSITION ELEMENTS -->
+	
+</body>
+<!-- END BODY -->
+</html>

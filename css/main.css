@@ -1,0 +1,129 @@
+body{
+	background:lavender;
+}
+input{
+	border-radius:4px;margin-top:4px;
+}
+select{
+	width:144px;height:16px;margin-top:7px;font-size:9px;
+}
+h3{
+	color:#2f3430;width:95px;font-size:13px;
+}
+td{
+	font-size:11px;
+}
+.blink{
+	display:none;
+}
+.code-wrap{
+	width:509px;min-height:369px;position:fixed;margin-top:117px;margin-left:1360px;background:aliceblue;border:2px solid #DFDDDD;padding:18px;display:none;
+}
+.att-opt-wrap{
+	float:left;
+}
+.sample-template-header{
+	position:fixed;margin-left:588px;margin-top:18px;background:mintcream;padding-left:72px;width:477px;height:34px;border-radius:10px 10px 0px 0px;border:1px solid wheat;
+}
+.pipe-icon{
+	position:fixed;margin-left:846px;margin-top:53px;
+}
+.how-to-use{
+	width:522px;min-height:270px;background:aliceblue;float:left;margin-left:1360px;border-radius:10px;border:2px solid #DFDDDD;margin-top:117px;position:fixed;font-family:tahoma;padding:5px;padding-left:23px;
+}
+.how2use-text{
+	z-index:10;font-size:12px;margin-right:9px;color:green;
+}
+.btns{
+	display:none;float:left;margin-top:7px;margin-left:7px;float:left;
+}
+.input-btns-wrap{
+	float:left;
+}
+.input-wrap{
+	float:left;
+}
+.attributes{
+	width:358px;height:auto;background:aliceblue;float:left;margin-left:1360px;border-radius:10px;margin-top:117px;position:fixed;display:none;
+}
+.frm{
+	background:aliceblue;width:522px;border-radius:10px;overflow:hidden;padding:14px;font-family:tahoma;border:2px solid #DFDDDD;
+}
+.frm-heading{
+	float:left;width:477px;
+}
+.att-heading{
+	float:left;
+}
+.gradient{
+	float:right;width:135px;margin-top:12px;font-size:13px;font-weight:bold;
+}
+.gradient-box{
+	padding:2px;width:10px;float:right;margin-top:12px;margin-left:5px;
+}
+.form{
+	float:left;margin-top:5px;margin-left:14px;
+}
+.td-input{
+	width:166px;
+}
+.typetext{
+	width:108px;height:17px;color:green;font-size:10px;
+}
+.typecheckbox{
+	width:14px;height:14px;color:green;
+}
+.smallbox{
+	width:23px;height:18px;margin-left:9px;color:green;font-size:10px;
+}
+.mediumbox{
+	width:105px;
+	height:17px;
+	color:green;
+	font-size:10px;
+}
+.options{
+	float:left;margin-left:570px;position:fixed;display:none;
+}
+.box{
+	padding:2px;width:11px;float:left;margin-left:2px;
+}
+.rect{
+	width:8px;height:8px;border:1px solid #000000;
+}
+.circ{
+	width:8px;height:8px;border-radius:15px;border:1px solid #000000;
+}
+.shapes{
+	width:39px;
+}
+.colors{
+	width:600px;min-height:60px;
+}
+#gradientTopWhite{
+	display:none;
+}
+#gradientBottomWhite{
+	display:none;
+}
+#gradientTopBlack{
+	display:none;
+}
+#gradientBottomBlack{
+	display:none;
+}
+#inputBorderWeight{
+	width:60px;height:16px;margin-top:7px;font-size:9px;color:green;
+}
+#inputBorderType{
+	width:135px;height:16px;margin-top:7px;font-size:9px;color:green;
+}
+#code{
+	width:450px;max-height:270px;padding:8px;background:#FFFFFF;overflow:scroll;overflow-x:hidden;color:green;border:1px solid black;
+}
+#getCode-btn{
+	margin-top:9px;
+}
+#remove-btn{
+	margin-top:9px;
+}
